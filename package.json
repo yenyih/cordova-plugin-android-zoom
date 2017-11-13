@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-android-zoom",
+  "version": "0.0.1",
+  "description": "Enables Zoom Controls for Cordova Android.",
+  "cordova": {
+    "id": "cordova-plugin-android-zoom",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deltragon/cordova-plugin-android-zoom.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=7.0.0"
+    }
+  ],
+  "author": {
+    "name": "md@x-net.at"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deltragon/cordova-plugin-android-zoom/issues"
+  },
+  "homepage": "https://github.com/deltragon/cordova-plugin-android-zoom#readme"
+}

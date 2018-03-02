@@ -6,12 +6,19 @@
     <license>MIT</license>
 
     <engines>
-        <engine name="cordova" version=">=7.0.0" />
+        <engine name="cordova" version=">=8.0.0" />
         <engine name="cordova-android" version=">=6.3.0" />
     </engines>
 
     <!-- Android -->
     <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/widget">
+            <feature name="AndroidZoom">
+                <param name="android-package" value="com.deltragon.cordova.AndroidZoom"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
         <source-file src="src/android/AndroidZoom.java" target-dir="src/com/deltragon/cordova"/>
     </platform>
 

@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-android-zoom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Enables Zoom Controls for Cordova Android.",
   "cordova": {
     "id": "cordova-plugin-android-zoom",
@@ -19,7 +19,7 @@
   "engines": [
     {
       "name": "cordova",
-      "version": ">=7.0.0"
+      "version": ">=8.0.0"
     }
   ],
   "author": {
